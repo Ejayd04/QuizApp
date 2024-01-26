@@ -1,0 +1,107 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-color: #08748C;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.app {
+     background-color: #f9ebd7;
+     width: 90%;
+     max-width: 600px;
+     margin: 100px auto 0;
+     border-radius: 10px;
+     padding: 30px;
+}
+
+.app h1 {
+     font-size: 25px;
+     color: #08748C;
+     font-weight: 600;
+     border-bottom: 1px solid #08748C;
+     padding-bottom: 30px;
+}
+
+.quiz {
+     padding: 20px 0;
+}
+
+.quiz h2 {
+     font-size: 18px;
+     color: #08748C;
+     font-weight: 600;
+}
+
+.btn {
+     background-color: white;
+     color: #08748C;
+     font-weight: 500;
+     width: 100%;
+     border: 1px solid #08748C;
+     padding: 10px;
+     margin: 10px 0;
+     text-align: left;
+     border-radius: 4px;
+     cursor: pointer;
+     transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+     background-color: #08748C;
+     color: white;
+}
+
+.btn:disabled {
+     cursor: no-drop;
+}
+
+#next-btn {
+     background-color: #08748C;
+     color: white;
+     font-weight: 500;
+     width: 150px;
+     border: 0;
+     padding: 10px;
+     margin: 20px auto 0;
+     border-radius: 4px;
+     cursor: pointer;
+     display: none;
+}
+
+.correct {
+     background-color: #698C8C;
+}
+
+.incorrect {
+     background-color: #ce4e4e;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
