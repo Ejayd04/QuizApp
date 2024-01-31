@@ -2,91 +2,91 @@ const questions = [
     {
         question: "What is the order of the Avatar cycle?",
         answers: [
-            { text: "Water, Earth, Fire, Air", correct: false },
-            { text: "Water, Earth, Air, Fire", correct: false },
-            { text: "Fire, Water, Earth, Air", correct: false },
-            { text: "Water, Earth, Fire, Air", correct: true }
+            { text: "Air, Water, Fire, Earth", correct: false, comment: "The correct order is Water, Earth, Fire, Air." },
+            { text: "Water, Earth, Air, Fire", correct: false, comment: "The correct order is Water, Earth, Fire, Air." },
+            { text: "Fire, Water, Earth, Air", correct: false, comment: "The correct order is Water, Earth, Fire, Air." },
+            { text: "Water, Earth, Fire, Air", correct: true, comment: "&#128079; You got it! The correct order is Water, Earth, Fire, Air" }
         ]
     },
     {
         question: "Who was the Avatar before Aang?",
         answers: [
-            { text: "Korra", correct: false },
-            { text: "Roku", correct: true },
-            { text: "Kyoshi", correct: false },
-            { text: "Yangchen", correct: false }
+            { text: "Korra", correct: false, comment: "Korra was the Avatar AFTER Aang." },
+            { text: "Roku", correct: true, comment: "&#128079; You got it! Roku was the Avatar before Aang. He died right before Sozin used the comet to wipe out the Air Nomads" },
+            { text: "Kyoshi", correct: false, comment: "Kyoshi was of the Earth Kingdom and the Avatar before Roku" },
+            { text: "Yangchen", correct: false, comment: "Yangchen was an Air Nomad, the Avatar before Kuruk of the water nation" }
         ]
     },
     {
         question: "Who said the following quote: 'That's rough, buddy.'",
         answers: [
-            { text: "Sokka", correct: false },
-            { text: "Zuko", correct: true },
-            { text: "Katara", correct: false },
-            { text: "Toph", correct: false }
+            { text: "Sokka", correct: false, comment: "Sokka was pretty witty and savage, but not quite the answer" },
+            { text: "Zuko", correct: true, comment: "&#128079; You got it! Zuko said this to Sokka after Sokka said that his first girlfriend turned into the Moon" },
+            { text: "Katara", correct: false, comment: "Katara was a very caring and nurturing character, not quite the answer" },
+            { text: "Toph", correct: false, comment: "Toph was a very blunt and straightforward character, but not quite the answer" }
         ]
     },
     {
         question: "Which of the following characters is NOT a bender?",
         answers: [
-            { text: "Ty Lee", correct: true },
-            { text: "Admiral Zhao", correct: false },
-            { text: "Long Feng", correct: false },
-            { text: "Iroh", correct: false }
+            { text: "Ty Lee", correct: true, comment: "&#128079; You got it! Ty Lee is a non-bender, but she is a very skilled acrobat and chi blocker" },
+            { text: "Admiral Zhao", correct: false, comment: "Admiral Zhao is a firebender (and a really awful one)" },
+            { text: "Long Feng", correct: false, comment: "Long Feng is a powerful earthbender and leader of the Dai Li, though he's more skilled at manipulation" },
+            { text: "Iroh", correct: false, comment: "Iroh is a perhaps the most powerful firebender, nicknamed The Dragon of The West" }
         ]
     },
     {
         question: "Which ancient dragons do the Sun Warriors revere as the original firebending masters?",
         answers: [
-            { text: "Roku and Sozin", correct: false },
-            { text: "Tui and La", correct: false },
-            { text: "Yin and Yang", correct: false },
-            { text: "Ran and Shaw", correct: true }
+            { text: "Roku and Sozin", correct: false, comment: "Roku and Sozin were really close like brothers and became the Avatar and the firelord respectively, but were not the original firebending masters" },
+            { text: "Tui and La", correct: false, comment: "Tui and La are the Ocean and the Moon spirits connected to Water bending" },
+            { text: "Yin and Yang", correct: false, comment: "Yin and Yang are the balance of the universe, not the original firebending masters" },
+            { text: "Ran and Shaw", correct: true, comment: "&#128079; You got it! Ran and Shaw are the original firebending masters and the last two dragons in existence" }
         ]
     },
     {
         question: "Which spirit is known as The Face Stealer?",
         answers: [
-            { text: "Koh", correct: true },
-            { text: "Hei Bai", correct: false },
-            { text: "Wan Shi Tong", correct: false },
-            { text: "Vaatu", correct: false }
+            { text: "Koh", correct: true, comment: "&#128079; You got it! Koh is a spirit that steals the faces of those who show emotion" },
+            { text: "Hei Bai", correct: false, comment: "Hei Bai is a forest spirit that turns into a monstrous panda when angered" },
+            { text: "Wan Shi Tong", correct: false, comment: "Wan Shi Tong is the spirit of knowledge and guards the Spirit Library. Quite scary! Yikes!" },
+            { text: "Vaatu", correct: false, comment: "Vaatu is the spirit of chaos and darkness, the opposite of Raava. Appears in the legend of Korra" }
         ]
     },
     {
         question: "Who is the leader of the Freedom Fighters?",
         answers: [
-            { text: "Pipsqueak", correct: false },
-            { text: "Longshot", correct: false },
-            { text: "Jet", correct: true },
-            { text: "The Duke", correct: false },
+            { text: "Pipsqueak", correct: false, comment: "Pipsqueak is the biggest, burliest member of the Freedom Fighters, but not the leader" },
+            { text: "Longshot", correct: false, comment: "Longshot is the silent archer of the Freedom Fighters, but not the leader" },
+            { text: "Jet", correct: true, comment: "&#128079; You got it! Jet is the leader of the Freedom Fighters and a very skilled swordsman" },
+            { text: "The Duke", correct: false, comment: "The Duke is the youngest member of the Freedom Fighters, but not the leader" },
         ]
     },
     {
         question: "What is the name of the library that Wan Shi Tong guards?",
         answers: [
-            { text: "The Spirit Library", correct: false },
-            { text: "The Spirit World Library", correct: false },
-            { text: "The Spirit Library of Knowledge", correct: true },
-            { text: "The Spirit World Archives", correct: false },
+            { text: "The Spirit Library", correct: false, comment: "The Spirit Library is not the correct name of the library"},
+            { text: "The Spirit World Library", correct: false, comment: "The Spirit World Library is not the correct name of the library"},
+            { text: "The Spirit Library of Knowledge", correct: true, comment: "&#128079; You got it! The Spirit Library of Knowledge is the correct name of the library"},
+            { text: "The Spirit World Archives", correct: false, comment: "The Spirit World Archives is not the correct name of the library"},
         ]
     },
     {
         question: "Who is not a member of the Order of the White Lotus?",
         answers: [
-            { text: "Long Feng", correct: true },
-            { text: "Iroh", correct: false },
-            { text: "Bumi", correct: false },
-            { text: "Jeong Jeong", correct: false }
+            { text: "Long Feng", correct: true, comment: "&#128079; You got it! Long Feng is not a member of the Order of the White Lotus. Rather he is the leader of the Dai Li (which let's be honest, pales in comparison to the White Lotus)"},
+            { text: "Iroh", correct: false, comment: "Iroh is a member of the Order of the White Lotus. He is the Grand Lotus"},
+            { text: "Bumi", correct: false, comment: "Bumi is a member of the Order of the White Lotus. He is the King of Omashu"},
+            { text: "Jeong Jeong", correct: false, comment: "Jeong Jeong is a member of the Order of the White Lotus. He is a very skilled firebender" }
         ]
     },
     {
         question: "What spirit does Katara disguise herself as in order to help a Fire Nation village?",
         answers: [
-            { text: "Raava", correct: false },
-            { text: "The Painted Lady", correct: true },
-            { text: "The Mother of Faces", correct: false },
-            { text: "Lady Tienhai", correct: false }
+            { text: "Raava", correct: false, comment: "Raava is from the legend of Korra" },
+            { text: "The Painted Lady", correct: true, comment: "&#128079; You got it! The Painted Lady is the spirit that Katara disguises herself as in order to help a Fire Nation village"},
+            { text: "The Mother of Faces", correct: false, comment: "The Mother of Faces is from the legend of Korra"},
+            { text: "Lady Tienhai", correct: false, comment: "Lady Tienhai is from the legend of Korra"}
         ]
     }
 ];
@@ -149,20 +149,46 @@ function resetState() {
 
 function selectAnswer(e) {
     const selectedBtn = e.target;
-    const isCorrect = selectedBtn.dataset.correct === "true";
+    const selectedAnswer = questions[currentQuestionIndex].answers.find(answer => answer.text === selectedBtn.innerHTML);
+    //const isCorrect = selectedBtn.dataset.correct === "true";
+    const isCorrect = selectedAnswer.correct;
+
+    displayComment(isCorrect, selectedAnswer.comment);
+
     if (isCorrect) {
         selectedBtn.classList.add("correct");
         score++;
     } else {
         selectedBtn.classList.add("incorrect");
     }
+
+    const correctBtn = Array.from(answerButtons.children).find(btn => btn.dataset.correct === "true");
+    if (correctBtn) {
+        correctBtn.classList.add("correct");
+    }
+
     Array.from(answerButtons.children).forEach(button => {
-        if (button.dataset.correct) {
-            button.classList.add("correct");
-        }
         button.disabled = true;
     });
+
+
+    // Array.from(answerButtons.children).forEach(button => {
+    //     if (button.dataset.correct) {
+    //         button.classList.add("correct");
+    //     }
+    //     button.disabled = true;
+    // });
     nextButton.style.display = "block";
+}
+
+
+
+function displayComment(isCorrect, commentText) {
+    const commentElement = document.createElement("p");
+    commentElement.classList.add(isCorrect ? "correct-comment" : "incorrect-comment");
+    commentElement.innerHTML = commentText;
+
+    answerButtons.appendChild(commentElement);
 }
 
 function showScore() {
